@@ -58,10 +58,10 @@ p {
 }
 
 img {
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
   display: block;
-  margin: 10px auto;
+  margin: 10px 0;
 }
 
 table {
