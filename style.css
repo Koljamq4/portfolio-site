@@ -148,8 +148,9 @@ input[type="reset"]:hover {
 audio,
 video,
 iframe {
-  max-width: 100%;
-  margin-top: 10px;
+  width: 100%;
+  max-width: 500px;   /* limits size on desktop */
+  height: auto;
 }
 
 footer {
@@ -161,9 +162,11 @@ footer {
 
 /* responsive design */
 @media (max-width: 768px) {
-  header {
-    padding: 15px;
+  video,
+  iframe {
+    max-width: 100%;
   }
+}
 
   nav a {
     display: block;
