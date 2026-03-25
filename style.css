@@ -103,8 +103,9 @@ img {
 audio,
 video,
 iframe {
-  max-width: 100%;
-  margin-top: 10px;
+  width: 100%;
+  max-width: 500px;   /* limits size on desktop */
+  height: auto;
 }
 
 /* Media section layout */
