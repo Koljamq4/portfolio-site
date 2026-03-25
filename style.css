@@ -145,7 +145,12 @@ input[type="reset"]:hover {
   background-color: #555;
 }
 
-audio,
+audio {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin-top: 10px;
+}
 video,
 iframe {
   width: 100%;
