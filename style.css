@@ -87,10 +87,17 @@ dd {
 
 /* Images and media */
 img {
+  width: 100%;
   max-width: 500px;
   height: auto;
   display: block;
   margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+  }
 }
 
 audio,
